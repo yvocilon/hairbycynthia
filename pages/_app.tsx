@@ -13,12 +13,7 @@ const GlobalStyle = createGlobalStyle`
         font-family: "Amatic SC";
         margin: 0;
         padding: 0;
-        display: flex;
-        width: 100%;
-        height: 100%;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+
     }
 `
 
