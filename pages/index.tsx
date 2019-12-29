@@ -8,7 +8,7 @@ const Home = () => (
   <>
     <Wrapper>
       <Subtitle>hair by</Subtitle>
-      <Title>CYNTHIA</Title>
+      <Title>Cynthia</Title>
     </ Wrapper>
     {/* <Wrapper color="#ECC9C7">
       <PhotoGallery />

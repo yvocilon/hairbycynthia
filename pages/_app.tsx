@@ -7,10 +7,11 @@ const theme = {
 
 const GlobalStyle = createGlobalStyle`
 
-    @import url('https://fonts.googleapis.com/css?family=Josefin+Slab&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Josefin+Slab:100&display=swap');
 
     html, body {
         font-family: 'Josefin Slab', serif;
+        font-weight:100;
         margin: 0;
         padding: 0;
 

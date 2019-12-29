@@ -14,7 +14,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    font-size: 30px;\n    text-align: center;\n    margin: 0;\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    font-size: 30px;\n    text-align: center;\n    font-weight:100;\n    margin: 0;\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -42,7 +42,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    font-size: 98px;\n    margin:25px 0 0 0;\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    font-size: 98px;\n    font-weight:100;\n    margin:0 0 0 0;\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -5274,7 +5274,7 @@ var Home = function Home() {
       lineNumber: 11
     },
     __self: this
-  }, "CYNTHIA")));
+  }, "Cynthia")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);

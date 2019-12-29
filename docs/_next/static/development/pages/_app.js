@@ -10629,7 +10629,7 @@ var _jsxFileName = "C:\\repos\\hairbycynthia\\pages\\_app.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement;
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_6__["default"])(["\n\n    @import url('https://fonts.googleapis.com/css?family=Josefin+Slab&display=swap');\n\n    html, body {\n        font-family: 'Josefin Slab', serif;\n        margin: 0;\n        padding: 0;\n\n    }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_6__["default"])(["\n\n    @import url('https://fonts.googleapis.com/css?family=Josefin+Slab:100&display=swap');\n\n    html, body {\n        font-family: 'Josefin Slab', serif;\n        font-weight:100;\n        margin: 0;\n        padding: 0;\n\n    }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -10664,20 +10664,20 @@ function (_App) {
       return __jsx(react__WEBPACK_IMPORTED_MODULE_8___default.a.Fragment, null, __jsx(GlobalStyle, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26
+          lineNumber: 27
         },
         __self: this
       }), __jsx(styled_components__WEBPACK_IMPORTED_MODULE_9__["ThemeProvider"], {
         theme: theme,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
+          lineNumber: 28
         },
         __self: this
       }, __jsx(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28
+          lineNumber: 29
         },
         __self: this
       }))));
