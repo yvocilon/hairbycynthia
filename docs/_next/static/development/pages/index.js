@@ -1,8 +1,8 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
 
-/***/ "./components/Subtitle/Subtitle.tsx":
+/***/ "./components/subtitle/Subtitle.tsx":
 /*!******************************************!*\
-  !*** ./components/Subtitle/Subtitle.tsx ***!
+  !*** ./components/subtitle/Subtitle.tsx ***!
   \******************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -28,9 +28,9 @@ function _templateObject() {
 
 /***/ }),
 
-/***/ "./components/Title/Title.tsx":
+/***/ "./components/title/Title.tsx":
 /*!************************************!*\
-  !*** ./components/Title/Title.tsx ***!
+  !*** ./components/title/Title.tsx ***!
   \************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -42,7 +42,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    font-size: 98px;\n    margin:0;\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    font-size: 98px;\n    margin:25px 0 0 0;\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -53,6 +53,38 @@ function _templateObject() {
 
 
 /* harmony default export */ __webpack_exports__["default"] = (styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h1(_templateObject()));
+
+/***/ }),
+
+/***/ "./components/wrapper/Wrapper.tsx":
+/*!****************************************!*\
+  !*** ./components/wrapper/Wrapper.tsx ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral */ "./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+
+
+function _templateObject() {
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    height: 100vh;\n    width: 100%;\n    background-color: ", ";\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    flex-direction: column;\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+
+/* harmony default export */ __webpack_exports__["default"] = (styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject(), function (_ref) {
+  var _ref$color = _ref.color,
+      color = _ref$color === void 0 ? "white" : _ref$color;
+  return color;
+}));
 
 /***/ }),
 
@@ -1472,10 +1504,10 @@ module.exports = (__webpack_require__(/*! dll-reference dll_ef0ff7c60362f24a921f
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fyvocilon%2FRepos%2Fhair-by-cynthia%2Fpages%2Findex.tsx!./":
-/*!******************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fyvocilon%2FRepos%2Fhair-by-cynthia%2Fpages%2Findex.tsx ***!
-  \******************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5Crepos%5Chairbycynthia%5Cpages%5Cindex.tsx!./":
+/*!*************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5Crepos%5Chairbycynthia%5Cpages%5Cindex.tsx ***!
+  \*************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -5213,28 +5245,36 @@ if ( true && typeof window !== 'undefined' && typeof navigator !== 'undefined' &
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Subtitle_Subtitle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Subtitle/Subtitle */ "./components/Subtitle/Subtitle.tsx");
-/* harmony import */ var _components_Title_Title__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Title/Title */ "./components/Title/Title.tsx");
-var _jsxFileName = "/Users/yvocilon/Repos/hair-by-cynthia/pages/index.tsx";
+/* harmony import */ var _components_subtitle_Subtitle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/subtitle/Subtitle */ "./components/subtitle/Subtitle.tsx");
+/* harmony import */ var _components_title_Title__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/title/Title */ "./components/title/Title.tsx");
+/* harmony import */ var _components_wrapper_Wrapper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/wrapper/Wrapper */ "./components/wrapper/Wrapper.tsx");
+var _jsxFileName = "C:\\repos\\hairbycynthia\\pages\\index.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
 
+
 var Home = function Home() {
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components_Subtitle_Subtitle__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components_wrapper_Wrapper__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 9
     },
     __self: this
-  }, "hair by"), __jsx(_components_Title_Title__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, __jsx(_components_subtitle_Subtitle__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 10
     },
     __self: this
-  }, "CYNTHIA"));
+  }, "hair by"), __jsx(_components_title_Title__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, "CYNTHIA")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
@@ -5242,13 +5282,13 @@ var Home = function Home() {
 /***/ }),
 
 /***/ 0:
-/*!**********************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fyvocilon%2FRepos%2Fhair-by-cynthia%2Fpages%2Findex.tsx ***!
-  \**********************************************************************************************************************************/
+/*!*****************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5Crepos%5Chairbycynthia%5Cpages%5Cindex.tsx ***!
+  \*****************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fyvocilon%2FRepos%2Fhair-by-cynthia%2Fpages%2Findex.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fyvocilon%2FRepos%2Fhair-by-cynthia%2Fpages%2Findex.tsx!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5Crepos%5Chairbycynthia%5Cpages%5Cindex.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5Crepos%5Chairbycynthia%5Cpages%5Cindex.tsx!./");
 
 
 /***/ }),

@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/_app.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\_app.js"],{
 
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js":
 /*!**********************************************************************!*\
@@ -10625,11 +10625,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/yvocilon/Repos/hair-by-cynthia/pages/_app.tsx";
+var _jsxFileName = "C:\\repos\\hairbycynthia\\pages\\_app.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement;
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_6__["default"])(["\n\n    @import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');\n\n    html, body {\n        font-family: \"Amatic SC\";\n        margin: 0;\n        padding: 0;\n        display: flex;\n        width: 100%;\n        height: 100%;\n        justify-content: center;\n        align-items: center;\n        flex-direction: column;\n    }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_6__["default"])(["\n\n    @import url('https://fonts.googleapis.com/css?family=Josefin+Slab&display=swap');\n\n    html, body {\n        font-family: 'Josefin Slab', serif;\n        margin: 0;\n        padding: 0;\n\n    }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -10664,20 +10664,20 @@ function (_App) {
       return __jsx(react__WEBPACK_IMPORTED_MODULE_8___default.a.Fragment, null, __jsx(GlobalStyle, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31
+          lineNumber: 26
         },
         __self: this
       }), __jsx(styled_components__WEBPACK_IMPORTED_MODULE_9__["ThemeProvider"], {
         theme: theme,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
+          lineNumber: 27
         },
         __self: this
       }, __jsx(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 28
         },
         __self: this
       }))));
