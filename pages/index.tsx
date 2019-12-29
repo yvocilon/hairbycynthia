@@ -10,13 +10,13 @@ const Home = () => (
       <Subtitle>hair by</Subtitle>
       <Title>CYNTHIA</Title>
     </ Wrapper>
-    <Wrapper color="#ECC9C7">
+    {/* <Wrapper color="#ECC9C7">
       <PhotoGallery />
     </Wrapper>
     <Wrapper color="#D9E3DA">
     </Wrapper>
     <Wrapper color="#ECC9C7">
-    </Wrapper>
+    </Wrapper> */}
   </>
 )
 

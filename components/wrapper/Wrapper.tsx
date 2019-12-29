@@ -5,7 +5,7 @@ interface Props {
 }
 
 export default styled.div<Props>`
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     background-color: ${ ({ color = "white" }) => color};
     display: flex;
